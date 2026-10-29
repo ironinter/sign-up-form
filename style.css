@@ -25,11 +25,11 @@ aside {
     height: 100vh;
     color: white;
     font-size: 5rem;
-    padding-top: 30vh;
+    padding-top: 25vh;
 }
 
 .dark-bg-container {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 15vh;
     display: flex;
     justify-content: center;
