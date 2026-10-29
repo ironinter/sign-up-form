@@ -25,6 +25,7 @@ aside {
     height: 100vh;
     color: white;
     font-size: 5rem;
+    padding-top: 30vh;
 }
 
 .dark-bg-container {
@@ -33,6 +34,7 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 img[alt="photu"] {
