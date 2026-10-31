@@ -84,6 +84,7 @@ input:focus {
     outline: none;
     border: 1px solid blue;
     border-radius: 3px;
+    box-shadow: 5px 5px 11px -2px #C9C9C9;
 }
 input:user-invalid {
     border: red 1px solid;
@@ -91,3 +92,29 @@ input:user-invalid {
     outline: none;
 }
 
+div.btn-container {
+    padding-left: clamp(2rem, 5vw, 4rem);
+    margin-top: 3vh;
+    padding-top: 3vh;
+    box-shadow: inset 0px 5px 4px -3px #CECECA;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 11px -2px #C9C9C9;
+}
+
+.login-text {
+    margin-top: 3vh;
+    font-weight: bolder;
+    font-size: small;
+}
+
+span.hyperlink-login-text {
+    color: #596D48;
+}
