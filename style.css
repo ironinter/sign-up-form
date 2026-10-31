@@ -60,16 +60,34 @@ p {
 
 form {
     display: flex;
-    flex-direction: column;
-    border: none;
+    flex-direction: column;   
 }
 
 fieldset {
     display: flex;
     gap: 60px;
+    border: none;
+    margin-left: -10px;
 }
 
 fieldset > section {
     display: flex;
     flex-direction: column;
 }
+
+label {
+    font-size: small;
+    color: rgba(0, 0, 0, 0.69);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+input:user-invalid {
+    border: red 1px solid;
+    border-radius: 3px;
+    outline: none;
+}
+
