@@ -108,6 +108,9 @@ button {
     font-weight: bold;
     box-shadow: 5px 5px 11px -2px #C9C9C9;
 }
+button:hover {
+    cursor: pointer;
+}
 
 .login-text {
     margin-top: 3vh;
@@ -117,4 +120,7 @@ button {
 
 span.hyperlink-login-text {
     color: #596D48;
+}
+span.hyperlink-login-text:hover {
+    cursor: pointer;
 }
